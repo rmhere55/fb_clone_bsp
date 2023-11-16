@@ -1,0 +1,54 @@
+.fs-0{
+    font-size: 4rem;
+}
+.fs-7{
+    font-size: 0.8rem;
+}
+.bg-gray{
+    background-color: #f0f2f5;
+}
+.nav_btn button:hover{
+    background-color: #faf2f5 !important;
+}
+
+.nav_btn button:hover i{
+    color: #0d6efd !important;
+}
+.nav_btn-active i{
+    color: #0d6efd !important;
+}
+.scrollbar:hover{
+    overflow: auto !important;
+}
+/* 
+.nav_btn-active{
+    position: relative;
+} */
+/* 
+.nav_btn-active:hover{
+    content: "";
+    position: absolute;
+    bottom: -4.5px;
+    left: 0;
+    transform: translateY(4.5px);
+    width: 100%;
+    height: 3px;
+    border-bottom: 3px solid #0d6efd !important;
+} */
+
+
+@media(min-width: 992px){
+    .col-lg-3{ 
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    }
+    @media (max-width:1345px) {
+        .timeline{
+            position: absolute;
+            width: 100%;
+    
+        }
+        
+    }
+    

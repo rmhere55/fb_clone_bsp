@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+sh7swo5w0IzW2g4l/kjExYFp9l50c8F5C5FOmUEF7I5BtDj" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ... other meta tags and stylesheets ... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+        integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-gray">
+    <!-- Navbar -->
+    <!-- Navigation Bar -->
+    <div class="container  d-flex flex-column flex-lg-row justify-content-evenly mt-5 pt-5">
+        <!-- heding  -->
+        <div class="text-center text-lg-start mt-lg-5 pt-lg-5">
+            <h1 class="text-primary fw-bold fs-0">Facebook</h1>
+            <p class="w-75 mx-auto mx-lg-0 fs-4">
+                facebook Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos unde velit </p>
+        </div>
+    <div style="max-width: 28rem; width: 100%;">
+ <div class="bg-white shadow rounded p-3 input-group-lg">
+    <input type="email" class="form-control my-3" placeholder="Email address or phone number">
+    <input type="password" class="form-control my-3" placeholder="password">
+ <a href="./feed.html">
+    <button class="btn btn-primary  w-100 my-3">Log In </button>
+ </a>
+ <a href="#"  class="text-decoration-none   text-center "><p> forget password</p> 
+ </a>
+ 
+ <hr>
+ <div class="text-center my-4">
+    <button type="" class="btn btn-success btn-lg"data-bs-toggle="modal" data-bs-target="#createModel">
+        Create New Account 
+    </button>
+
+ </div>
+ <!-- create model  -->
+ 
+  <div class="modal fade" id="createModel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- head  -->
+        <div class="modal-header">
+        <div>
+          <h2 class="modal-title fs-5" id="exampleModalLabel">Sign Up</h2>
+          <p class="text-muted fs-7">quick and easy</p>
+        </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- body  -->
+        <div class="modal-body">
+          <form action="">
+            <!-- name  -->
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name"></div>
+            </div>
+            <!-- email and pass  -->
+            
+            <input type="email" class="form-control my-3" placeholder="Mobile number and email address">
+            <input type="password" class="form-control my-3" placeholder="New password">
+            <!-- Dob  -->
+            <div class="row my-3">
+                <span class="text-muted fs-7">Date of birth <i class= "fas fa-question-circle" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content ="hy here add you dob this is for only 18 + ppl"></i>
+                   </span>
+                   <div class="col">
+                    <select class="from-select">
+                        <option value="1">one</option>
+                        <option value="2">two</option>
+                        <option value="3">three</option>
+                    </select>
+                   </div>
+                   <div class="col">
+                    <select class="from-select">
+                        <option value="1">one</option>
+                        <option value="2">two</option>
+                        <option value="3">three</option>
+                    </select>
+                   </div>
+                   <div class="col">
+                    <select class="from-select">
+                        <option value="1">one</option>
+                        <option value="2">two</option>
+                        <option value="3">three</option>
+                    </select>
+                   </div>
+            
+            </div>
+            <!-- gender  -->
+            
+            <div class="row my-3">
+                
+                <span class="text-muted fs-7">Gender <i class= "fas fa-question-circle" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content ="hy here add you dob this is for only 18 + ppl"></i>
+                </span>
+                <div class="col">
+                    <div class="boder rounded p-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male 
+                        </label>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="boder rounded p-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Female 
+                        </label>
+                      </div>
+                </div>
+            
+                <div class="col">
+                    <div class="boder rounded p-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+                        <label class="form-check-label" for="flexRadioDefault3">
+                        Other
+                        </label>
+                      </div>
+                </div>
+            
+            </div>
+
+            <!-- gender selection
+             -->
+             <div class="d-none" id="GenderSelect">
+                <select class="from-select">
+                    <option value="1">one</option>
+                    <option value="2">two</option>
+                    <option value="3">three</option>
+                
+                </select>
+                <div class="my-3"><span class="text-muted fs-7">
+                    your pronoun is visible to everyone
+                </span>
+                <input type="text" class="form-control" placeholder="Gender(option)">
+            </div>
+             </div>
+             <!-- disclamer -->
+              <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+<hr>
+             <!-- btn  -->
+             
+             <div class="text-center mt-3">
+          <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Sign Up</button>
+        </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- end  -->
+
+</div>
+<!-- tag  -->
+<div class="my-5 pb-5 text-center">
+    <p class="fw-bold">
+        <a href="#" class="text-decoration-none text-dark" > Create</a>
+        <span class="fw-normal"> page for a clebrity , band or buiness</span>
+    </p>
+</div>
+    </div>
+    </div>
+
+
+
+<!-- footer  -->
+ <footer class="bg-white p-4 text-muted text-center">
+    <div class="container text-center">
+        <div class="d-flex flex-wrap     align-text-center">
+            <p class="mx-2 fs-7 mb-0 text-center">English(us) </p>
+            <p class="mx-2 fs-7 mb-0 text-center">Hindi</p>
+            <p class="mx-2 fs-7 mb-0">urdu </p>
+            <p class="mx-2 fs-7 mb-0">chiness</p> </p>
+</div>
+  <div class="d-flex flex-wrap">
+            <p class="mx-2 fs-7 mb-0">Sign Up </p>
+            <p class="mx-2 fs-7 mb-0">Login</p>
+            <p class="mx-2 fs-7 mb-0">Messenger </p>
+            <p class="mx-2 fs-7 mb-0">Facebook lite</p> 
+            <p class="mx-2 fs-7 mb-0">Watch</p> 
+
+
+ 
+</div>
+</div>
+        </div>
+    <!-- copy -->
+    <div class="mt-4 mx-2">
+        <p class="fs-7"> facebook &copy; 2023</p>
+       
+    </div>
+    </div>
+ </footer>
+
+
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-EVSTQN3/azprG2rF5e5k5m9LkpL5w5p/C6f5f5Vm8Fj5z5z5Vmm5G5C5f5E5o5z5z5z5z5z5z5z5z5z5Z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z5z"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+</body>
+
+</html>
